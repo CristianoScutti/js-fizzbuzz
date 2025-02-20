@@ -9,14 +9,15 @@ Altrimenti se il numero è divisibile per cinque allora uscirà la scritta "Buzz
 Altrimenti se il numero è divisibile sia per tre che per cinque uscità la scritta "FizzBuzz"*/
 
 for (let i = 1; i <= 100; i++) {
-    let divisibile;
+    let divisibile = i
 if ( i % 3 === 0 && i % 5 === 0) {
     divisibile = "FizzBuzz";
 } else if (i % 3 === 0) {
     divisibile = "fizz";
 } else if (i % 5 === 0){ 
     divisibile = "Buzz";
-}
-console.log(i, divisibile);
+} 
+
+console.log(divisibile);
 
 }
